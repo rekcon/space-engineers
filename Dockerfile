@@ -2,7 +2,7 @@
 FROM mcr.microsoft.com/windows/servercore:ltsc2022
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
-LABEL maintainer="TheDruidsKeeper"
+LABEL maintainer="rekcon"
 EXPOSE 27016/UDP
 EXPOSE 8080/TCP
 VOLUME C:\world
