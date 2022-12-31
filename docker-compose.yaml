@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  se-server:
+    image: rekconcubix/space-engineers:latest
+    container_name: space-engineers-dedicated-docker-windows
+    restart: unless-stopped
+    volumes:
+      - ./appdata:C:\World
+    ports:
+     - "27016:27016/udp"
+     - "8080:8080"
