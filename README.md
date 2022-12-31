@@ -2,7 +2,7 @@
 A windows docker image for running the Space Engineers dedicated server, published to the [docker hub](https://hub.docker.com/repository/docker/thedruidskeeper/space-engineers).
 
 ## Features:
-- Windows server core 2019 base image
+- Windows server core 2022 base image
 - Includes all required dependencies
 - Updates the dedicated server on container start
 - Persistent volume for storing world data
